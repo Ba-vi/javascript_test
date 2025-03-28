@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- An  event is an occurence that happens in the browser that takes place when a user takes action.  -->
+
+     <h1>Occurrence of an Event</h1>
+     <button id="my_button">Click Me!</button>
+     <p id="result"></p>
+     
+     <script>
+        
+         
+         
+         button.addEventListener("click", function() {
+             result.innerText = "Button Clicked!";
+         });
+     
+         
+         function change() {
+             button.style.backgroundColor = "lightblue";
+         }
+     
+        
+         button.addEventListener("mouseover", change);
+     </script>
+     
+</body>
+</html>
